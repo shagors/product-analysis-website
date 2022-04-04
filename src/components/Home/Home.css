@@ -1,0 +1,12 @@
+.home-body{
+    margin-top: 170px;
+}
+.home-img{
+    height: 510px;
+    width: 325px;
+    background-color: white;
+}
+.home-img img{
+    height: 500px;
+    margin-right: 20px;
+}
