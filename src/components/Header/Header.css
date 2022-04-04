@@ -9,12 +9,6 @@ nav {
   font-family: "Teko", sans-serif;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
 .link {
   text-decoration: none;
   margin-left: 15px;
