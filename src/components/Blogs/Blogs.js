@@ -15,7 +15,7 @@ const Blogs = () => {
                 </p>
             </div>
             <div>
-                <h1 className='text-3xl my-3'>Inline Block Vs Inline Block Elements</h1>
+                <h1 className='text-3xl my-3'>Inline Vs Inline Block Elements</h1>
                 <p>
                     inline The element doesn’t start on a new line and only occupy just the width it requires. We can’t set the width or height. <br />
                     inline-block It’s formatted just like the inline element, where it doesn’t start on a new line. BUT, We can set width and height values.
