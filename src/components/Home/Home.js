@@ -5,7 +5,6 @@ import './Home.css'
 
 const Home = () => {
     const [reviews, setReviews] = ReviewsFromUser();
-    console.log(reviews);
     return (
         <div>
             <div className='flex m-5'>
