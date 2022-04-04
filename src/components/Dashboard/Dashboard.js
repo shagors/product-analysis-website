@@ -1,9 +1,11 @@
-import React from 'react';
+import LineChartDiagram from "../AllChart/LineChartDiagram";
+
 
 const Dashboard = () => {
+
     return (
         <div>
-            <h1>This is Dashboard Page</h1>
+            <LineChartDiagram></LineChartDiagram>
         </div>
     );
 };
