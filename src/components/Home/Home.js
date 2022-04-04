@@ -1,5 +1,6 @@
 import React from 'react';
 import ReviewsFromUser from '../../hooks/reviewsFromUser';
+import Review from '../Review/Review';
 
 const Home = () => {
     const [reviews, setReviews] = ReviewsFromUser();
@@ -15,12 +16,16 @@ const Home = () => {
                 </div>
                 <div>
                     <h1>This is Image</h1>
-                    <img src={'./src/Asset/images/home.jpg'} alt="" />
+                    <img className='' src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="" />
                 </div>
             </div>
             <div>
-                <h1 className='text-5xl'>Users Reviews</h1>
-                <p>{reviews?.length}</p>
+                <h1 className='text-5xl my-4'>Users Reviews</h1>
+                <div className='grid grid-cols-3 gap-4 mb-5'>
+                    {
+                        reviews?.slice(0,3).map(review => <Review key= {review.id} review={review}></Review>)
+                    }
+                </div>
             </div>
         </div>
     );
